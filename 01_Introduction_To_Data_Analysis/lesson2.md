@@ -19,8 +19,8 @@
 
 ## 1. 📊 Qualitative vs. Quantitative Data
 
-| Quantitative Data                                                                               | Qualitative Data                                                                                            |
-| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| Quantitative Data                                                                         | Qualitative Data                                                                                      |
+| ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | **📏 Definition:** Information that can be counted, measured, and expressed using numbers | **📝 Definition:** Describes qualities or characteristics that cannot be easily measured with numbers |
 | **🔢 Answers questions like:** "How much," "how many," or "how often"                     | **❓ Answers questions like:** "why," "how," or "what"                                                |
 
@@ -84,6 +84,7 @@ flowchart TD
 - Score: 85/100
 
 **Real-world data examples:**
+
 ```
 Store sales data:
 Daily sales: $24,356
@@ -105,9 +106,10 @@ Blood pressure: 120/80 mmHg
 - Whole numbers/countable values
 - Finite number of possible values
 - Cannot be divided into smaller parts
-- *Examples:* Number of students, children, cars
+- _Examples:_ Number of students, children, cars
 
 **Real-world data examples:**
+
 ```
 Inventory counts:
 Product A: 347 units in stock
@@ -125,9 +127,10 @@ Reviews submitted: 5★ (43), 4★ (56), 3★ (22), 2★ (8), 1★ (5)
 - Can take any value within a range
 - Infinite number of possible values
 - Can be divided into smaller parts
-- *Examples:* Height, weight, temperature
+- _Examples:_ Height, weight, temperature
 
 **Real-world data examples:**
+
 ```
 Environmental monitoring:
 Temperature: 27.4°C
@@ -160,6 +163,7 @@ Failure load: 1,234.56 Newtons
 - Category: Vegetable, Fruit, Grain
 
 **Real-world data examples:**
+
 ```
 Customer feedback:
 "Your customer service team was extremely helpful and solved my issue right away."
@@ -178,9 +182,10 @@ Color options: Navy Blue, Forest Green, Burgundy, Charcoal Grey
 
 - Categories with no inherent order
 - Cannot be ranked or compared meaningfully
-- *Examples:* Blood types, eye colors, nationalities
+- _Examples:_ Blood types, eye colors, nationalities
 
 **Real-world data examples:**
+
 ```
 Employee records:
 Department: Marketing, Engineering, Finance, Human Resources, Sales
@@ -197,9 +202,10 @@ Connectivity: Bluetooth, Wi-Fi, Cellular, Ethernet, NFC
 
 - Categories with a meaningful order/rank
 - Differences between values may not be consistent
-- *Examples:* Rating scales, education levels, rankings
+- _Examples:_ Rating scales, education levels, rankings
 
 **Real-world data examples:**
+
 ```
 Customer satisfaction:
 Very satisfied (234 responses)
@@ -244,6 +250,7 @@ Structured data is organized in a predefined format, making it easily searchable
 - Financial records
 
 **Real-world data examples:**
+
 ```
 Customer database entry:
 ID: 10458
@@ -253,14 +260,15 @@ Age: 34
 Registration Date: 2024-11-12
 Subscription Type: Premium
 Monthly Spend: $29.99
+```
 
 Sales transaction table:
-TransactionID | Date       | ProductID | Quantity | UnitPrice | CustomerID
------------------------------------------------------------------------------
-T-45892      | 2025-04-22 | PRD-112   | 3        | $24.99    | 10458
-T-45893      | 2025-04-22 | PRD-087   | 1        | $49.99    | 10458
-T-45894      | 2025-04-22 | PRD-254   | 2        | $12.50    | 10782
-```
+
+| TransactionID | Date       | ProductID | Quantity | UnitPrice | CustomerID |
+| ------------- | ---------- | --------- | -------- | --------- | ---------- |
+| T-45892       | 2025-04-22 | PRD-112   | 3        | $24.99    | 10458      |
+| T-45893       | 2025-04-22 | PRD-087   | 1        | $49.99    | 10458      |
+| T-45894       | 2025-04-22 | PRD-254   | 2        | $12.50    | 10782      |
 
 ### Unstructured Data
 
@@ -282,6 +290,7 @@ Unstructured data lacks a predefined data model and doesn't fit neatly into trad
 - Open-ended survey responses
 
 **Real-world data examples:**
+
 ```
 Social media post:
 "Just experienced the most amazing customer service at @TechCompany! The representative spent 45 minutes helping me troubleshoot my device issues and even followed up the next day to make sure everything was working properly! #CustomerServiceWin #HappyCustomer"
@@ -309,7 +318,8 @@ A hybrid category that contains elements of both structured and unstructured dat
 - Email headers combined with message body
 
 **Real-world data examples:**
-```
+
+```json
 JSON product data:
 {
   "product_id": "PRD-112",
@@ -335,7 +345,9 @@ JSON product data:
     }
   ]
 }
+```
 
+```xml
 XML weather data:
 <weather location="Cairo" date="2025-05-03">
   <temperature unit="celsius">28.4</temperature>
@@ -399,6 +411,7 @@ Primary data is collected directly by the researcher for a specific purpose.
 - Mobile polling
 
 **Real-world data examples:**
+
 ```
 Q: "How satisfied are you with our service?"
 A: Very satisfied (5), Satisfied (4), Neutral (3), Dissatisfied (2), Very dissatisfied (1)
@@ -418,6 +431,7 @@ A: [Open text response] "I would like to see better integration with mobile devi
 - Focus groups (group discussions)
 
 **Real-world data examples:**
+
 ```
 Interview transcript excerpt:
 Interviewer: "Could you describe your experience with our checkout process?"
@@ -435,6 +449,7 @@ Focus group comment:
 - Laboratory observations (controlled environment)
 
 **Real-world data examples:**
+
 ```
 Retail store observation:
 Time: 2:15 PM | Customer count: 27 | Queue length: 4 people | Average browsing time: 8.5 minutes
@@ -451,6 +466,7 @@ User spent 45 seconds on homepage → clicked "Products" → filtered by "Price 
 - A/B testing (comparing variations)
 
 **Real-world data examples:**
+
 ```
 A/B testing results:
 Version A (blue button): 1,500 visitors, 120 conversions (8.0% conversion rate)
@@ -490,6 +506,7 @@ Secondary data is collected by someone else for a different primary purpose.
 - Crime statistics
 
 **Real-world data examples:**
+
 ```
 Census data:
 Population by age group (Cairo, 2020):
@@ -513,6 +530,7 @@ Consumer Price Index: 128.4 (base year 2015=100)
 - Company annual reports
 
 **Real-world data examples:**
+
 ```
 Market research report excerpt:
 Smartphone Market Share (Q1 2025):
@@ -538,6 +556,7 @@ Company XYZ Annual Revenue (millions USD):
 - Case studies
 
 **Real-world data examples:**
+
 ```
 Research study results:
 Effect of Exercise on Stress Levels (n=234)
@@ -563,6 +582,7 @@ Humanities: 79.3%
 - API access to platforms
 
 **Real-world data examples:**
+
 ```
 Website analytics:
 Daily Traffic: 28,452 visitors
@@ -731,18 +751,18 @@ flowchart TD
 ### 📕 Recommended Reading
 
 - **[&#34;Data Science from Scratch&#34;](https://www.oreilly.com/library/view/data-science-from/9781492041122/)** by Joel Grus
-  *Learn practical approaches to data collection and analysis from the ground up*
+  _Learn practical approaches to data collection and analysis from the ground up_
 - **[&#34;Practical Statistics for Data Scientists&#34;](https://www.oreilly.com/library/view/practical-statistics-for/9781491952955/)** by Peter Bruce & Andrew Bruce
-  *Essential statistical methods and their applications in data science*
+  _Essential statistical methods and their applications in data science_
 
 ### 🔗 Online Resources
 
 - **[Types of Data in Statistics](https://www.khanacademy.org/math/statistics-probability/designing-studies/types-of-studies/v/types-of-data)** - Khan Academy
-  *Free tutorials on data types and statistical foundations*
+  _Free tutorials on data types and statistical foundations_
 - **[Data Ethics Framework](https://www.gov.uk/government/publications/data-ethics-framework)** - UK Government
-  *Guidance on ethical approaches to data collection and analysis*
+  _Guidance on ethical approaches to data collection and analysis_
 - **[GDPR Official Documentation](https://gdpr.eu/)**
-  *Complete guide to European data protection regulations*
+  _Complete guide to European data protection regulations_
 
 ---
 
@@ -768,6 +788,6 @@ Select a business or organization you're familiar with and create a data invento
 
 ---
 
-*Next Lesson: The Data Analysis Lifecycle* ⏭️
+_Next Lesson: The Data Analysis Lifecycle_ ⏭️
 
 **✓ Lesson 2 Complete - 2 of 6 ✓**

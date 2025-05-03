@@ -24,6 +24,66 @@
 | **📏 Definition:** Information that can be counted, measured, and expressed using numbers | **📝 Definition:** Describes qualities or characteristics that cannot be easily measured with numbers |
 | **🔢 Answers questions like:** "How much," "how many," or "how often"                     | **❓ Answers questions like:** "why," "how," or "what"                                                |
 
+```mermaid
+flowchart TD
+    A[Data] --> B[Quantitative Data]
+    A --> C[Qualitative Data]
+
+    B --> D[Discrete]
+    B --> E[Continuous]
+
+    C --> F[Nominal]
+    C --> G[Ordinal]
+
+    %% Explanations for Quantitative Data
+    D --> D1["• Whole numbers
+    • Countable values
+    • No fractional parts
+    • Examples: Number of students,
+      children, products sold"]
+
+    E --> E1["• Can take any value within a range
+    • Infinite number of possible values
+    • Can be divided into smaller parts
+    • Examples: Height, weight,
+      temperature, time"]
+
+    %% Explanations for Qualitative Data
+    F --> F1["• Categories with no inherent order
+    • Cannot be ranked meaningfully
+    • Examples: Blood types, eye colors,
+      nationalities, product categories"]
+
+    G --> G1["• Categories with a meaningful order/rank
+    • Differences between values may not be consistent
+    • Examples: Education levels,
+      satisfaction ratings, size rankings"]
+
+    %% Characteristics
+    B -.-> B1["• Numerical in nature
+    • Can be used for statistical analysis
+    • Objective measurement
+    • Mathematical operations can be performed"]
+
+    C -.-> C1["• Descriptive rather than numerical
+    • Focuses on experiences and attributes
+    • Often subjective
+    • Rich and detailed information"]
+
+    %% Styling for dark mode
+    classDef title fill:#6c5ce7,stroke:#fff,stroke-width:2px,color:#fff
+    classDef quant fill:#0984e3,stroke:#dfe6e9,stroke-width:1px,color:#fff
+    classDef qual fill:#00b894,stroke:#dfe6e9,stroke-width:1px,color:#fff
+    classDef subtype fill:#636e72,stroke:#dfe6e9,stroke-width:1px,color:#fff
+    classDef desc fill:#fdcb6e,stroke:#2d3436,stroke-width:1px,color:#2d3436,font-size:12px
+
+    class A title
+    class B,B1 quant
+    class C,C1 qual
+    class D,E,F,G subtype
+    class D1,E1,F1,G1 desc
+```
+
 ### Quantitative Data
 
 **Key Characteristics:**

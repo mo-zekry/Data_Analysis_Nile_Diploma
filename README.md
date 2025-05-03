@@ -16,20 +16,21 @@ A comprehensive curriculum for learning data analysis, designed for non-technica
 
 This 3-month course meets twice weekly (Sunday and Wednesday) for 3-hour sessions.
 
-| Week | Date (Sunday) | Module | Topics | Date (Wednesday) | Module | Topics |
-|------|--------------|--------|--------|-----------------|--------|--------|
-| 1 | Week 1 - Sun | Module 1 | Introduction to Data Analysis (Lessons 1-3) | Week 1 - Wed | Module 1 | Introduction to Data Analysis (Lessons 4-6) |
-| 2 | Week 2 - Sun | Module 2 | Essential Mathematics (Basic Statistics) | Week 2 - Wed | Module 2 | Essential Mathematics (Probability & Distributions) |
-| 3 | Week 3 - Sun | Module 2 | Essential Mathematics (Correlation & Regression) | Week 3 - Wed | Module 3 | Excel Basics (Lessons 1-2) |
-| 4 | Week 4 - Sun | Module 3 | Excel Data Management (Lessons 3-4) | Week 4 - Wed | Module 3 | Excel Analysis Tools (Lessons 5-6) |
-| 5 | Week 5 - Sun | Module 3 | Excel Advanced Analysis (Lessons 7-9) | Week 5 - Wed | Module 4 | Python Intro (Notebooks, Data Types) |
-| 6 | Week 6 - Sun | Module 4 | Python Basics (Lists, Conditionals, Loops) | Week 6 - Wed | Module 4 | Python Functions & File Handling |
-| 7 | Week 7 - Sun | Module 4 | Python Advanced Concepts | Week 7 - Wed | Module 5 | NumPy Fundamentals |
-| 8 | Week 8 - Sun | Module 5 | Pandas Basics | Week 8 - Wed | Module 5 | Pandas Advanced |
-| 9 | Week 9 - Sun | Module 5 | Data Visualization (Matplotlib) | Week 9 - Wed | Module 5 | Data Visualization (Seaborn, Plotly) |
-| 10 | Week 10 - Sun | Module 6 | SQL Fundamentals | Week 10 - Wed | Module 6 | SQL Joins & Advanced Queries |
-| 11 | Week 11 - Sun | Module 6 | SQL for Data Analysis | Week 11 - Wed | Module 7 | Final Project Planning |
-| 12 | Week 12 - Sun | Module 7 | Final Project Work | Week 12 - Wed | Module 7 | Final Project Presentations |
+| Week | Sunday Session |  | Wednesday Session |  |
+|:----:|----------------|----------------|-------------------|----------------|
+| | **Module & Topics** | **Content** | **Module & Topics** | **Content** |
+| **1** | **Module 1** | Introduction to<br>Data Analysis<br>(Lessons 1-3) | **Module 1** | Introduction to<br>Data Analysis<br>(Lessons 4-6) |
+| **2** | **Module 2** | Essential Mathematics<br>(Basic Statistics) | **Module 2** | Essential Mathematics<br>(Probability & Distributions) |
+| **3** | **Module 2** | Essential Mathematics<br>(Correlation & Regression) | **Module 3** | Excel Basics<br>(Lessons 1-2) |
+| **4** | **Module 3** | Excel Data Management<br>(Lessons 3-4) | **Module 3** | Excel Analysis Tools<br>(Lessons 5-6) |
+| **5** | **Module 3** | Excel Advanced Analysis<br>(Lessons 7-9) | **Module 4** | Python Intro<br>(Notebooks, Data Types) |
+| **6** | **Module 4** | Python Basics<br>(Lists, Conditionals, Loops) | **Module 4** | Python Functions &<br>File Handling |
+| **7** | **Module 4** | Python Advanced<br>Concepts | **Module 5** | NumPy Fundamentals |
+| **8** | **Module 5** | Pandas Basics | **Module 5** | Pandas Advanced |
+| **9** | **Module 5** | Data Visualization<br>(Matplotlib) | **Module 5** | Data Visualization<br>(Seaborn, Plotly) |
+| **10** | **Module 6** | SQL Fundamentals | **Module 6** | SQL Joins &<br>Advanced Queries |
+| **11** | **Module 6** | SQL for Data Analysis | **Module 7** | Final Project Planning |
+| **12** | **Module 7** | Final Project Work | **Module 7** | Final Project Presentations |
 
 ## Module Hours Breakdown
 

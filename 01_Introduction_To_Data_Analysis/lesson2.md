@@ -83,6 +83,21 @@ flowchart TD
 - Time: 45 minutes
 - Score: 85/100
 
+**Real-world data examples:**
+```
+Store sales data:
+Daily sales: $24,356
+Items sold: 872 units
+Average transaction value: $27.93
+Customer conversion rate: 8.2%
+
+Health metrics:
+Weight: 68.4 kg
+Heart rate: 72 bpm
+Cholesterol: 185 mg/dL
+Blood pressure: 120/80 mmHg
+```
+
 #### Subtypes of Quantitative Data
 
 **📊 Discrete Data**
@@ -92,12 +107,40 @@ flowchart TD
 - Cannot be divided into smaller parts
 - *Examples:* Number of students, children, cars
 
+**Real-world data examples:**
+```
+Inventory counts:
+Product A: 347 units in stock
+Product B: 129 units in stock
+Product C: 0 units in stock (out of stock)
+
+Customer service:
+Number of support tickets: 127
+Calls handled per representative: 24, 31, 18, 27, 22
+Reviews submitted: 5★ (43), 4★ (56), 3★ (22), 2★ (8), 1★ (5)
+```
+
 **📈 Continuous Data**
 
 - Can take any value within a range
 - Infinite number of possible values
 - Can be divided into smaller parts
 - *Examples:* Height, weight, temperature
+
+**Real-world data examples:**
+```
+Environmental monitoring:
+Temperature: 27.4°C
+Humidity: 58.3%
+Wind speed: 12.7 km/h
+Particulate matter (PM2.5): 18.2 μg/m³
+
+Manufacturing quality control:
+Product weight: 254.32 grams
+Dimensions: 15.76 cm x 8.23 cm x 1.04 cm
+Resistance: 4.87 ohms
+Failure load: 1,234.56 Newtons
+```
 
 ### Qualitative Data
 
@@ -116,6 +159,19 @@ flowchart TD
 - Mood: Happy, Sad, Anxious
 - Category: Vegetable, Fruit, Grain
 
+**Real-world data examples:**
+```
+Customer feedback:
+"Your customer service team was extremely helpful and solved my issue right away."
+"The product quality has declined over the past year. I'm considering switching brands."
+"Website navigation is confusing, took me too long to find what I was looking for."
+
+Product attributes:
+Material: Cotton, Polyester, Wool, Silk, Linen
+Sizes available: XS, S, M, L, XL, XXL
+Color options: Navy Blue, Forest Green, Burgundy, Charcoal Grey
+```
+
 #### Subtypes of Qualitative Data
 
 **🏷️ Nominal Data**
@@ -124,11 +180,41 @@ flowchart TD
 - Cannot be ranked or compared meaningfully
 - *Examples:* Blood types, eye colors, nationalities
 
+**Real-world data examples:**
+```
+Employee records:
+Department: Marketing, Engineering, Finance, Human Resources, Sales
+Office location: Cairo, Alexandria, Aswan, Luxor, Hurghada
+Employment type: Full-time, Part-time, Contractor, Intern
+
+Product categorization:
+Device type: Smartphone, Tablet, Laptop, Desktop, Wearable
+Operating system: iOS, Android, Windows, Linux, macOS
+Connectivity: Bluetooth, Wi-Fi, Cellular, Ethernet, NFC
+```
+
 **📋 Ordinal Data**
 
 - Categories with a meaningful order/rank
 - Differences between values may not be consistent
 - *Examples:* Rating scales, education levels, rankings
+
+**Real-world data examples:**
+```
+Customer satisfaction:
+Very satisfied (234 responses)
+Satisfied (412 responses)
+Neutral (158 responses)
+Dissatisfied (87 responses)
+Very dissatisfied (29 responses)
+
+Education levels of survey respondents:
+High school diploma (142)
+Associate's degree (78)
+Bachelor's degree (215)
+Master's degree (124)
+Doctoral degree (41)
+```
 
 > "Both data types are valuable, and many robust analyses combine qualitative and quantitative approaches."
 
@@ -157,6 +243,25 @@ Structured data is organized in a predefined format, making it easily searchable
 - Survey results with fixed responses
 - Financial records
 
+**Real-world data examples:**
+```
+Customer database entry:
+ID: 10458
+Name: Ahmed Hassan
+Email: ahmed.h@example.com
+Age: 34
+Registration Date: 2024-11-12
+Subscription Type: Premium
+Monthly Spend: $29.99
+
+Sales transaction table:
+TransactionID | Date       | ProductID | Quantity | UnitPrice | CustomerID
+-----------------------------------------------------------------------------
+T-45892      | 2025-04-22 | PRD-112   | 3        | $24.99    | 10458
+T-45893      | 2025-04-22 | PRD-087   | 1        | $49.99    | 10458
+T-45894      | 2025-04-22 | PRD-254   | 2        | $12.50    | 10782
+```
+
 ### Unstructured Data
 
 Unstructured data lacks a predefined data model and doesn't fit neatly into traditional databases.
@@ -176,6 +281,16 @@ Unstructured data lacks a predefined data model and doesn't fit neatly into trad
 - Images and photographs
 - Open-ended survey responses
 
+**Real-world data examples:**
+```
+Social media post:
+"Just experienced the most amazing customer service at @TechCompany! The representative spent 45 minutes helping me troubleshoot my device issues and even followed up the next day to make sure everything was working properly! #CustomerServiceWin #HappyCustomer"
+
+Customer support email:
+Subject: Issues with recent order #45892
+Body: "Hello, I ordered three t-shirts on April 22nd but received only two. The missing shirt is the blue one in size medium. Could you please look into this? Also, the packaging was damaged upon arrival. I've attached photos of the box. Thanks for your help."
+```
+
 ### Semi-Structured Data
 
 A hybrid category that contains elements of both structured and unstructured data.
@@ -192,6 +307,57 @@ A hybrid category that contains elements of both structured and unstructured dat
 - XML documents
 - HTML webpages
 - Email headers combined with message body
+
+**Real-world data examples:**
+```
+JSON product data:
+{
+  "product_id": "PRD-112",
+  "name": "Premium Cotton T-Shirt",
+  "price": 24.99,
+  "available_colors": ["Black", "White", "Navy", "Red"],
+  "available_sizes": ["S", "M", "L", "XL"],
+  "specs": {
+    "material": "100% Organic Cotton",
+    "weight": "180g",
+    "care": "Machine wash cold"
+  },
+  "reviews": [
+    {
+      "user_id": "U10458",
+      "rating": 5,
+      "comment": "Great quality and fits perfectly!"
+    },
+    {
+      "user_id": "U10782",
+      "rating": 4,
+      "comment": "Nice shirt but runs a bit small"
+    }
+  ]
+}
+
+XML weather data:
+<weather location="Cairo" date="2025-05-03">
+  <temperature unit="celsius">28.4</temperature>
+  <humidity unit="percent">52</humidity>
+  <wind>
+    <speed unit="kph">12</speed>
+    <direction>NE</direction>
+  </wind>
+  <forecast>
+    <day date="2025-05-04">
+      <high>30.2</high>
+      <low>22.1</low>
+      <conditions>Mostly sunny</conditions>
+    </day>
+    <day date="2025-05-05">
+      <high>31.5</high>
+      <low>23.0</low>
+      <conditions>Partly cloudy</conditions>
+    </day>
+  </forecast>
+</weather>
+```
 
 ---
 
@@ -232,12 +398,34 @@ Primary data is collected directly by the researcher for a specific purpose.
 - Email questionnaires
 - Mobile polling
 
+**Real-world data examples:**
+```
+Q: "How satisfied are you with our service?"
+A: Very satisfied (5), Satisfied (4), Neutral (3), Dissatisfied (2), Very dissatisfied (1)
+
+Q: "How many times did you visit our store this month?"
+A: 0, 1-2, 3-5, 6+ times
+
+Q: "What features would you like to see in our next product update?"
+A: [Open text response] "I would like to see better integration with mobile devices..."
+```
+
 **🎙️ Interviews**
 
 - Structured interviews (predetermined questions)
 - Semi-structured interviews (guided but flexible)
 - Unstructured interviews (conversational)
 - Focus groups (group discussions)
+
+**Real-world data examples:**
+```
+Interview transcript excerpt:
+Interviewer: "Could you describe your experience with our checkout process?"
+Participant: "It was mostly smooth, but I got confused when I had to verify my email before completing my purchase."
+
+Focus group comment:
+"I prefer shopping online because I can compare prices across multiple sites. Last week, I spent 45 minutes comparing laptop prices before making a purchase."
+```
 
 **👁️ Observations**
 
@@ -246,11 +434,32 @@ Primary data is collected directly by the researcher for a specific purpose.
 - Field research (natural environment)
 - Laboratory observations (controlled environment)
 
+**Real-world data examples:**
+```
+Retail store observation:
+Time: 2:15 PM | Customer count: 27 | Queue length: 4 people | Average browsing time: 8.5 minutes
+Customer path tracking: Entered → Electronics (5 min) → Accessories (3 min) → Checkout (2 min)
+
+Website user observation:
+User spent 45 seconds on homepage → clicked "Products" → filtered by "Price low to high" → added item to cart after 3 minutes → abandoned cart at shipping information page
+```
+
 **🧪 Experiments**
 
 - Controlled experiments (manipulating variables)
 - Field experiments (real-world settings)
 - A/B testing (comparing variations)
+
+**Real-world data examples:**
+```
+A/B testing results:
+Version A (blue button): 1,500 visitors, 120 conversions (8.0% conversion rate)
+Version B (green button): 1,500 visitors, 195 conversions (13.0% conversion rate)
+
+Clinical trial data:
+Treatment group: Average blood pressure reduction of 12 mmHg over 8 weeks (n=85)
+Control group: Average blood pressure reduction of 3 mmHg over 8 weeks (n=82)
+```
 
 ### Secondary Data Sources
 
@@ -280,12 +489,46 @@ Secondary data is collected by someone else for a different primary purpose.
 - Weather data
 - Crime statistics
 
+**Real-world data examples:**
+```
+Census data:
+Population by age group (Cairo, 2020):
+0-14 years: 27.8% (5.2 million)
+15-24 years: 19.2% (3.6 million)
+25-54 years: 43.1% (8.1 million)
+55-64 years: 5.9% (1.1 million)
+65+ years: 4.0% (0.75 million)
+
+Economic indicators:
+GDP Growth Rate: 3.6% (Q1 2025)
+Unemployment Rate: 5.2% (April 2025)
+Consumer Price Index: 128.4 (base year 2015=100)
+```
+
 **💼 Commercial and Business Sources**
 
 - Industry reports
 - Market research
 - Financial databases
 - Company annual reports
+
+**Real-world data examples:**
+```
+Market research report excerpt:
+Smartphone Market Share (Q1 2025):
+Brand A: 32.4%
+Brand B: 29.7%
+Brand C: 15.3%
+Brand D: 8.9%
+Others: 13.7%
+
+Financial performance data:
+Company XYZ Annual Revenue (millions USD):
+2022: $458.3
+2023: $512.7
+2024: $587.9
+2025 (projected): $650.2
+```
 
 **🎓 Academic and Research Resources**
 
@@ -294,6 +537,23 @@ Secondary data is collected by someone else for a different primary purpose.
 - University repositories
 - Case studies
 
+**Real-world data examples:**
+```
+Research study results:
+Effect of Exercise on Stress Levels (n=234)
+Group 1 (control): Average stress score 7.2/10
+Group 2 (20 min/day): Average stress score 5.1/10
+Group 3 (40 min/day): Average stress score 3.9/10
+p-value: 0.002
+
+Educational statistics:
+University Graduation Rates by Field of Study:
+Computer Science: 76.2%
+Business: 82.5%
+Engineering: 74.8%
+Humanities: 79.3%
+```
+
 **🌐 Web and Digital Sources**
 
 - Social media data
@@ -301,6 +561,20 @@ Secondary data is collected by someone else for a different primary purpose.
 - Online databases
 - Digital archives
 - API access to platforms
+
+**Real-world data examples:**
+```
+Website analytics:
+Daily Traffic: 28,452 visitors
+Bounce Rate: 42.3%
+Average Session Duration: 3:24 minutes
+Top Traffic Sources: Organic Search (52%), Social Media (28%), Direct (15%)
+
+Social media data:
+Hashtag #DataScience mentions: 3,820 (last 24 hours)
+Sentiment analysis: Positive (62%), Neutral (25%), Negative (13%)
+Peak posting times: 9-10am and 7-8pm local time
+```
 
 ---
 

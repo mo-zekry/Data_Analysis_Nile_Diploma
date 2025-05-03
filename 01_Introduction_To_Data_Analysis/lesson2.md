@@ -110,7 +110,7 @@ flowchart TD
 
 **Examples:**
 
-- Gender: Male, Female, Non-binary
+- Gender: Male, Female
 - Color preference: Blue
 - Product feedback: "The interface is confusing"
 - Mood: Happy, Sad, Anxious

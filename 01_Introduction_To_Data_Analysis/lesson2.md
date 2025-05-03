@@ -25,6 +25,9 @@
 | **🔢 Answers questions like:** "How much," "how many," or "how often"                     | **❓ Answers questions like:** "why," "how," or "what"                                                |
 
 ```mermaid
+---
+id: 08146799-4a02-4f45-8e3f-b8abade20b61
+---
 flowchart TD
     A[Data] --> B[Quantitative Data]
     A --> C[Qualitative Data]
@@ -36,39 +39,18 @@ flowchart TD
     C --> G[Ordinal]
 
     %% Explanations for Quantitative Data
-    D --> D1["• Whole numbers
-    • Countable values
-    • No fractional parts
-    • Examples: Number of students,
+    D --> D1["• Examples: Number of students,
       children, products sold"]
 
-    E --> E1["• Can take any value within a range
-    • Infinite number of possible values
-    • Can be divided into smaller parts
-    • Examples: Height, weight,
+    E --> E1["• Examples: Height, weight,
       temperature, time"]
 
     %% Explanations for Qualitative Data
-    F --> F1["• Categories with no inherent order
-    • Cannot be ranked meaningfully
-    • Examples: Blood types, eye colors,
+    F --> F1["• Examples: Blood types, eye colors,
       nationalities, product categories"]
 
-    G --> G1["• Categories with a meaningful order/rank
-    • Differences between values may not be consistent
-    • Examples: Education levels,
+    G --> G1["• Examples: Education levels,
       satisfaction ratings, size rankings"]
-
-    %% Characteristics
-    B -.-> B1["• Numerical in nature
-    • Can be used for statistical analysis
-    • Objective measurement
-    • Mathematical operations can be performed"]
-
-    C -.-> C1["• Descriptive rather than numerical
-    • Focuses on experiences and attributes
-    • Often subjective
-    • Rich and detailed information"]
 
     %% Styling for dark mode
     classDef title fill:#6c5ce7,stroke:#fff,stroke-width:2px,color:#fff

@@ -235,7 +235,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
   <p><em>Example of a candlestick chart showing price movements over time</em></p>
 </div>
 
-**Best for**: Showing price movement with open/close/high/low values  
+**Best for**: Showing price movement with open/close/high/low values
 **Data type**: Time series with range data
 
 **Example use cases**:
@@ -254,7 +254,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
   <p><em>Example of a histogram showing frequency distribution</em></p>
 </div>
 
-**Best for**: Showing distribution of a single variable  
+**Best for**: Showing distribution of a single variable
 **Data type**: Continuous numeric data
 
 **Example use cases**:
@@ -271,7 +271,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
   <p><em>Example of box plots showing data distribution with quartiles</em></p>
 </div>
 
-**Best for**: Showing data distribution with quartiles and outliers  
+**Best for**: Showing data distribution with quartiles and outliers
 **Data type**: Numeric data with statistical spread
 
 **Example use cases**:
@@ -304,7 +304,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
   <p><em>Example of a scatter plot showing relationship between two variables</em></p>
 </div>
 
-**Best for**: Showing relationship between two variables  
+**Best for**: Showing relationship between two variables
 **Data type**: Two numeric variables
 
 **Example use cases**:
@@ -321,7 +321,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
   <p><em>Example of a bubble chart showing relationships with three variables</em></p>
 </div>
 
-**Best for**: Showing relationship between three variables  
+**Best for**: Showing relationship between three variables
 **Data type**: Two numeric variables plus a third for bubble size
 
 **Example use cases**:
@@ -338,7 +338,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
   <p><em>Example of a heatmap showing patterns across two categorical dimensions</em></p>
 </div>
 
-**Best for**: Showing patterns across two categorical dimensions  
+**Best for**: Showing patterns across two categorical dimensions
 **Data type**: Matrix of values in two dimensions
 
 **Example use cases**:
@@ -357,7 +357,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
   <p><em>Example of a pie chart showing parts of a whole</em></p>
 </div>
 
-**Best for**: Showing parts of a whole (limited to 5-7 categories)  
+**Best for**: Showing parts of a whole (limited to 5-7 categories)
 **Data type**: Categorical data as percentages of total
 
 **Example use cases**:
@@ -374,7 +374,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
   <p><em>Example of a stacked bar chart showing composition across categories</em></p>
 </div>
 
-**Best for**: Showing composition and total values across categories  
+**Best for**: Showing composition and total values across categories
 **Data type**: Categorical with subcategories and values
 
 **Example use cases**:
@@ -391,7 +391,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
   <p><em>Example of a treemap showing hierarchical data structure</em></p>
 </div>
 
-**Best for**: Hierarchical data with nested categories  
+**Best for**: Hierarchical data with nested categories
 **Data type**: Hierarchical categorical data with values
 
 **Example use cases**:
@@ -410,7 +410,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
   <p><em>Example of a choropleth map showing values across geographic regions</em></p>
 </div>
 
-**Best for**: Showing values across geographic areas  
+**Best for**: Showing values across geographic areas
 **Data type**: Geographic data with associated values
 
 **Example use cases**:
@@ -427,7 +427,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
   <p><em>Example of a point map showing individual locations</em></p>
 </div>
 
-**Best for**: Showing individual locations  
+**Best for**: Showing individual locations
 **Data type**: Geographic coordinates with attributes
 
 **Example use cases**:
@@ -444,7 +444,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
   <p><em>Example of a flow map showing movement between locations</em></p>
 </div>
 
-**Best for**: Showing movement between locations  
+**Best for**: Showing movement between locations
 **Data type**: Origin-destination pairs with volumes
 
 **Example use cases**:
@@ -463,7 +463,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
   <p><em>Example of a network graph showing relationships between entities</em></p>
 </div>
 
-**Best for**: Showing relationships and connections between entities  
+**Best for**: Showing relationships and connections between entities
 **Data type**: Node-link data with relationships
 
 **Example use cases**:
@@ -480,7 +480,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
   <p><em>Example of a Sankey diagram showing flow quantities between stages</em></p>
 </div>
 
-**Best for**: Showing flow quantities between categories or stages  
+**Best for**: Showing flow quantities between categories or stages
 **Data type**: Flow data between nodes
 
 **Example use cases**:
@@ -497,7 +497,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
   <p><em>Example of a funnel chart showing sequential process stages</em></p>
 </div>
 
-**Best for**: Showing sequential process and drop-offs  
+**Best for**: Showing sequential process and drop-offs
 **Data type**: Sequential steps with decreasing values
 
 **Example use cases**:
@@ -685,14 +685,7 @@ graph TD
 - [Tableau Public Gallery](https://public.tableau.com/gallery)
 - [Information is Beautiful](https://informationisbeautiful.net/)
 - [Flowing Data](https://flowingdata.com/)
-- [Visualization Tools Comparison](https://www.tableau.com/learn/articles/data-visualization-tools)
 
-### Tutorials and Courses
-
-- [Google Data Studio Fundamentals](https://analytics.google.com/analytics/academy/course/10)
-- [Tableau Free Training Videos](https://www.tableau.com/learn/training)
-- [Power BI Learning Resources](https://powerbi.microsoft.com/en-us/learning/)
-- [DataCamp Data Visualization Courses](https://www.datacamp.com/courses/topic:data_visualization)
 
 ### Visualization Communities
 

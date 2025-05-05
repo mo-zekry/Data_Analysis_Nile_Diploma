@@ -168,6 +168,8 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 - Survey responses by demographic group
 - Performance metrics across departments
 
+---
+
 *Grouped Bar Charts*
 ![Grouped Bar Chart Example](image/lesson3/viz_grouped_bar.png)
 
@@ -180,6 +182,8 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 - Expenses by department across quarters
 - Test scores by school and subject
 
+---
+
 *Radar/Spider Charts*
 ![Radar Chart Example](image/lesson3/viz_radar_chart.png)
 
@@ -191,6 +195,8 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 - Performance evaluations across multiple dimensions
 - Product features comparison
 - Skills assessment profiles
+
+---
 
 **Time Series Visualizations**
 
@@ -206,6 +212,8 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 - Monthly website traffic trends
 - Temperature fluctuations through seasons
 
+---
+
 *Area Charts*
 ![Area Chart Example](image/lesson3/viz_area_chart.png)
 
@@ -218,45 +226,62 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 - Cumulative project progress
 - Website traffic sources over time
 
-*Candlestick Charts*
-![Candlestick Chart Example](image/lesson3/viz_candlestick.png)
+---
 
-**Best for**: Showing price movement with open/close/high/low values
+### Candlestick Charts
+
+<div align="center">
+  <img src="image/lesson3/viz_candlestick.png" alt="Candlestick Chart Example" width="600px">
+  <p><em>Example of a candlestick chart showing price movements over time</em></p>
+</div>
+
+**Best for**: Showing price movement with open/close/high/low values  
 **Data type**: Time series with range data
 
 **Example use cases**:
-
 - Stock or cryptocurrency price movements
 - Trading data analysis
 - Price volatility patterns
 
-**Distribution Visualizations**
+---
 
-*Histograms**
-![Histogram Example](image/lesson3/viz_histogram.png)
+### Distribution Visualizations
 
-**Best for**: Showing distribution of a single variable
+#### Histograms
+
+<div align="center">
+  <img src="image/lesson3/viz_histogram.png" alt="Histogram Example" width="600px">
+  <p><em>Example of a histogram showing frequency distribution</em></p>
+</div>
+
+**Best for**: Showing distribution of a single variable  
 **Data type**: Continuous numeric data
 
 **Example use cases**:
-
 - Age distribution of customers
 - Test score distributions
 - Response time frequencies
 
-*Box Plots**
-![Box Plot Example](image/lesson3/viz_boxplot.png)
+---
 
-**Best for**: Showing data distribution with quartiles and outliers
+#### Box Plots
+
+<div align="center">
+  <img src="image/lesson3/viz_boxplot.png" alt="Box Plot Example" width="600px">
+  <p><em>Example of box plots showing data distribution with quartiles</em></p>
+</div>
+
+**Best for**: Showing data distribution with quartiles and outliers  
 **Data type**: Numeric data with statistical spread
 
 **Example use cases**:
-
 - Salary distributions by department
 - Product performance variability
 - Comparing data spread across groups
 
-*Violin Plots**
+---
+
+*Violin Plots*
 ![Violin Plot Example](image/lesson3/viz_violin_plot.png)
 
 **Best for**: Showing density distribution and statistical summary
@@ -268,154 +293,214 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 - Analyzing bimodal data patterns
 - Customer rating distributions by product
 
+---
+
 **Relationship Visualizations**
 
-*Scatter Plots*
-![Scatter Plot Example](image/lesson3/viz_scatter_plot.png)
+#### Scatter Plots
 
-**Best for**: Showing relationship between two variables
+<div align="center">
+  <img src="image/lesson3/viz_scatter_plot.png" alt="Scatter Plot Example" width="600px">
+  <p><em>Example of a scatter plot showing relationship between two variables</em></p>
+</div>
+
+**Best for**: Showing relationship between two variables  
 **Data type**: Two numeric variables
 
 **Example use cases**:
-
 - Price vs. quality correlation
 - Height vs. weight relationships
 - Marketing spend vs. sales relationship
 
-*Bubble Charts*
-![Bubble Chart Example](image/lesson3/viz_bubble_chart.png)
+---
 
-**Best for**: Showing relationship between three variables
+#### Bubble Charts
+
+<div align="center">
+  <img src="image/lesson3/viz_bubble_chart.png" alt="Bubble Chart Example" width="600px">
+  <p><em>Example of a bubble chart showing relationships with three variables</em></p>
+</div>
+
+**Best for**: Showing relationship between three variables  
 **Data type**: Two numeric variables plus a third for bubble size
 
 **Example use cases**:
-
 - GDP per capita vs. life expectancy with population size
 - Product features vs. price with sales volume
 - Marketing channels by cost and conversion rate
 
-*Heatmaps*
-![Heatmap Example](image/lesson3/viz_heatmap.png)
+---
 
-**Best for**: Showing patterns across two categorical dimensions
+#### Heatmaps
+
+<div align="center">
+  <img src="image/lesson3/viz_heatmap.png" alt="Heatmap Example" width="600px">
+  <p><em>Example of a heatmap showing patterns across two categorical dimensions</em></p>
+</div>
+
+**Best for**: Showing patterns across two categorical dimensions  
 **Data type**: Matrix of values in two dimensions
 
 **Example use cases**:
-
 - Website activity by hour and day of week
 - Correlation matrix between variables
 - Performance metrics across regions and products
 
+---
+
 **Composition Visualizations**
 
-*Pie Charts*
-![Pie Chart Example](image/lesson3/viz_pie_chart.png)
+#### Pie Charts
 
-**Best for**: Showing parts of a whole (limited to 5-7 categories)
+<div align="center">
+  <img src="image/lesson3/viz_pie_chart.png" alt="Pie Chart Example" width="600px">
+  <p><em>Example of a pie chart showing parts of a whole</em></p>
+</div>
+
+**Best for**: Showing parts of a whole (limited to 5-7 categories)  
 **Data type**: Categorical data as percentages of total
 
 **Example use cases**:
-
 - Market share distribution
 - Budget allocation by department
 - Traffic sources to a website
 
-*Stacked Bar Charts*
-![Stacked Bar Chart Example](image/lesson3/viz_stacked_bar.png)
+---
 
-**Best for**: Showing composition and total values across categories
+#### Stacked Bar Charts
+
+<div align="center">
+  <img src="image/lesson3/viz_stacked_bar.png" alt="Stacked Bar Chart Example" width="600px">
+  <p><em>Example of a stacked bar chart showing composition across categories</em></p>
+</div>
+
+**Best for**: Showing composition and total values across categories  
 **Data type**: Categorical with subcategories and values
 
 **Example use cases**:
-
 - Revenue breakdown by product and region
 - Population demographics over time
 - Survey responses across multiple questions
 
-*Treemaps*
-![Treemap Example](image/lesson3/viz_treemap.png)
+---
 
-**Best for**: Hierarchical data with nested categories
+#### Treemaps
+
+<div align="center">
+  <img src="image/lesson3/viz_treemap.png" alt="Treemap Example" width="600px">
+  <p><em>Example of a treemap showing hierarchical data structure</em></p>
+</div>
+
+**Best for**: Hierarchical data with nested categories  
 **Data type**: Hierarchical categorical data with values
 
 **Example use cases**:
-
 - File system storage allocation
 - Product categories and subcategories by sales
 - Organizational structure with performance metrics
 
+---
+
 **Spatial Visualizations**
 
-*Choropleth Maps*
-![Choropleth Map Example](image/lesson3/viz_choropleth.png)
+#### Choropleth Maps
 
-**Best for**: Showing values across geographic areas
+<div align="center">
+  <img src="image/lesson3/viz_choropleth.png" alt="Choropleth Map Example" width="600px">
+  <p><em>Example of a choropleth map showing values across geographic regions</em></p>
+</div>
+
+**Best for**: Showing values across geographic areas  
 **Data type**: Geographic data with associated values
 
 **Example use cases**:
-
 - Population density by region
 - Sales performance across territories
 - Election results by district
 
-*Point Maps*
-![Point Map Example](image/lesson3/viz_point_map.png)
+---
 
-**Best for**: Showing individual locations
+#### Point Maps
+
+<div align="center">
+  <img src="image/lesson3/viz_point_map.png" alt="Point Map Example" width="600px">
+  <p><em>Example of a point map showing individual locations</em></p>
+</div>
+
+**Best for**: Showing individual locations  
 **Data type**: Geographic coordinates with attributes
 
 **Example use cases**:
-
 - Store locations with performance data
 - Customer distribution in a region
 - Event locations with attendance figures
 
-*Flow Maps*
-![Flow Map Example](image/lesson3/viz_flow_map.png)
+---
 
-**Best for**: Showing movement between locations
+#### Flow Maps
+
+<div align="center">
+  <img src="image/lesson3/viz_flow_map.png" alt="Flow Map Example" width="600px">
+  <p><em>Example of a flow map showing movement between locations</em></p>
+</div>
+
+**Best for**: Showing movement between locations  
 **Data type**: Origin-destination pairs with volumes
 
 **Example use cases**:
-
 - Migration patterns between countries
 - Supply chain and logistics flows
 - Customer movement between store locations
 
+---
+
 **Specialized Visualizations**
 
-*Network Graphs*
-![Network Graph Example](image/lesson3/viz_network_graph.png)
+#### Network Graphs
 
-**Best for**: Showing relationships and connections between entities
+<div align="center">
+  <img src="image/lesson3/viz_network_graph.png" alt="Network Graph Example" width="600px">
+  <p><em>Example of a network graph showing relationships between entities</em></p>
+</div>
+
+**Best for**: Showing relationships and connections between entities  
 **Data type**: Node-link data with relationships
 
 **Example use cases**:
-
 - Social network analysis
 - Organization connections and hierarchies
 - Product recommendation systems
 
-*Sankey Diagrams*
-![Sankey Diagram Example](image/lesson3/viz_sankey.png)
+---
 
-**Best for**: Showing flow quantities between categories or stages
+#### Sankey Diagrams
+
+<div align="center">
+  <img src="image/lesson3/viz_sankey.png" alt="Sankey Diagram Example" width="600px">
+  <p><em>Example of a Sankey diagram showing flow quantities between stages</em></p>
+</div>
+
+**Best for**: Showing flow quantities between categories or stages  
 **Data type**: Flow data between nodes
 
 **Example use cases**:
-
 - Website user flow analysis
 - Energy transfer diagrams
 - Budget flow between departments
 
-*Funnel Charts*
-![Funnel Chart Example](image/lesson3/viz_funnel_chart.png)
+---
 
-**Best for**: Showing sequential process and drop-offs
+#### Funnel Charts
+
+<div align="center">
+  <img src="image/lesson3/viz_funnel_chart.png" alt="Funnel Chart Example" width="600px">
+  <p><em>Example of a funnel chart showing sequential process stages</em></p>
+</div>
+
+**Best for**: Showing sequential process and drop-offs  
 **Data type**: Sequential steps with decreasing values
 
 **Example use cases**:
-
 - Sales conversion funnel
 - Recruitment process stages
 - Customer journey analysis

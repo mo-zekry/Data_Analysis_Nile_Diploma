@@ -223,7 +223,6 @@ Understanding the business context is essential for asking relevant questions an
 
 Understanding how data analysts relate to other data professionals helps clarify career paths and collaboration opportunities.
 
-![Data Roles Comparison](image/lesson4/data_roles_comparison.png)
 
 | Role                          | Primary Focus                                                 | Key Skills                                                            | Typical Deliverables                                   |
 | ----------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------ |

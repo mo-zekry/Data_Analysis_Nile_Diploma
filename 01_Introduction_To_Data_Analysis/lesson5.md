@@ -254,51 +254,6 @@ Data visualization tools help transform complex data into intuitive visual forma
 
 ---
 
-## 2. ☁️ Cloud Tools and Collaboration Platforms
-
-Modern data analysis increasingly relies on cloud-based tools that offer scalability, accessibility, and collaboration features beyond traditional desktop applications.
-
-### Cloud Data Platforms
-
-**Google Cloud Platform (GCP)**
-
-**Key Data Services:**
-
-- **BigQuery**: Serverless data warehouse
-- **Dataflow**: Stream and batch processing
-- **Looker**: Business intelligence
-- **Vertex AI**: Machine learning platform
-- **Data Studio**: Reporting and dashboards
-
-**Microsoft Azure**
-
-**Key Data Services:**
-
-- **Azure Synapse Analytics**: Analytics service
-- **Azure Data Lake**: Storage for big data
-- **Azure Databricks**: Apache Spark-based analytics
-- **Power BI**: Business intelligence
-- **Azure Machine Learning**: ML service
-
-**Amazon Web Services (AWS)**
-
-**Key Data Services:**
-
-- **Redshift**: Data warehouse
-- **S3**: Object storage
-- **EMR**: Big data platform
-- **SageMaker**: Machine learning platform
-- **QuickSight**: Business intelligence
-
-**Benefits of Cloud Platforms:**
-
-- Scalable resources on demand
-- No hardware to maintain
-- Pay-as-you-go pricing models
-- Built-in security and compliance features
-- Integrated services for end-to-end workflows
-- Global accessibility
-
 ### Collaboration Tools for Data Teams
 
 **Version Control Systems**
@@ -345,50 +300,6 @@ Modern data analysis increasingly relies on cloud-based tools that offer scalabi
 - Integration with data tools and alerts
 - Video meetings and screen sharing
 
-### Data Sharing and Documentation
-
-**Data Catalogs**
-
-- **Alation**: Enterprise data catalog
-- **Collibra**: Data intelligence platform
-- **Microsoft Purview**: Data governance service
-- **Google Data Catalog**: Metadata management
-
-**Documentation Tools**
-
-- **Confluence**: Wiki and knowledge base
-- **Notion**: All-in-one workspace
-- **Dataedo**: Database documentation tool
-
-> **Collaboration Best Practices**: Effective data teams typically implement a combination of version control for code, project management for task tracking, communication tools for discussions, and proper documentation for knowledge sharing.
-
----
-
-## 3. 📊 Brief Overview of Tool Usage
-
-### Practical Use Cases by Tool Type
-
-| Tool Type               | Beginner Use Case                           | Intermediate Use Case                        | Advanced Use Case                                           |
-| ----------------------- | ------------------------------------------- | -------------------------------------------- | ----------------------------------------------------------- |
-| **Spreadsheets**  | Monthly budget tracking with basic formulas | Sales analysis with pivot tables and charts  | Automated reporting with macros and Power Query             |
-| **Python/R**      | Data cleaning and simple visualizations     | Statistical analysis and predictive modeling | Machine learning pipelines and automated workflows          |
-| **SQL**           | Basic queries to retrieve and filter data   | Complex joins across multiple tables         | Optimized queries and stored procedures for large databases |
-| **Visualization** | Standard charts and dashboards              | Interactive multi-view dashboards            | Custom visualizations with advanced interactivity           |
-| **Cloud Tools**   | Using pre-built templates and services      | Custom workflows combining multiple services | Enterprise-scale data architecture design                   |
-
-### Tool Selection Framework
-
-**🔍 Key Question:** Which tool is best suited for your specific data analysis task?
-
-When deciding which tool to use for a data analysis task, consider these factors:
-
-| Factor                             | Considerations                                                                                                                                        | Tool Recommendations                                                                                                                                                                                                                                     |
-| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **📊 Data Volume**           | • Small: Fits in memory (<100K rows) <br> • Medium: Requires optimization (100K-10M rows) <br> • Large: Distributed systems needed (>10M rows) | •**Small:** Spreadsheets, R/Python <br> • **Medium:** SQL databases, optimized Python/R <br> • **Large:** Cloud platforms, Spark, big data tools                                                                                |
-| **🧮 Analysis Complexity**   | • Basic: Sums, averages, filters <br> • Intermediate: Statistical tests, regressions <br> • Advanced: Machine learning, network analysis       | •**Basic:** Spreadsheets, SQL <br> • **Intermediate:** R, Python, specialized statistics software <br> • **Advanced:** Python, R, specialized ML platforms                                                                      |
-| **👁️ Output Requirements** | • Static reports or tables <br> • Interactive dashboards <br> • Automated systems/pipelines <br> • Embedded analytics in applications       | •**Static:** Any tool with export capabilities <br> • **Interactive:** Tableau, Power BI, Shiny, Dash <br> • **Automated:** Python/R with scheduling, cloud services <br> • **Embedded:** BI platforms with API access |
-| **👥 User Expertise**        | • Beginner: No programming experience <br> • Intermediate: Some technical skills <br> • Advanced: Comfortable with coding and algorithms       | •**Beginner:** Spreadsheets, BI tools with GUIs <br> • **Intermediate:** SQL, basic Python/R <br> • **Advanced:** Advanced Python/R, specialized tools                                                                          |
-| **🤝 Collaboration Needs**   | • Solo project <br> • Small team collaboration <br> • Enterprise with multiple stakeholders <br> • Public sharing requirements              | •**Solo:** Any tool <br> • **Small team:** Cloud tools, version control <br> • **Enterprise:** Platforms with access control <br> • **Public:** Tools with sharing capabilities                                        |
 
 #### ✅ When to use Spreadsheets
 

@@ -21,8 +21,6 @@
 
 > **Definition:** A data analyst collects, processes, and performs statistical analyses on large datasets. They discover how data can be used to answer questions and solve problems, transforming raw data into meaningful insights for decision-making.
 
-![Data Analyst Role Overview](image/lesson4/data_analyst_role.png)
-
 ### Core Responsibilities
 
 #### 📊 Data Processing
@@ -48,20 +46,6 @@
 - Automating repetitive analysis tasks
 - Identifying opportunities for data quality improvement
 - Supporting data governance initiatives
-
-### A Day in the Life of a Data Analyst
-
-| Time     | Activity                               | Description                                                             |
-| -------- | -------------------------------------- | ----------------------------------------------------------------------- |
-| 9:00 AM  | 🔄**Daily Stand-up**             | Review priorities with team, address any blockers                       |
-| 9:30 AM  | 📥**Data Collection & Cleaning** | Pull latest data sets, handle missing values, clean inconsistencies     |
-| 11:00 AM | 🔍**Analysis**                   | Run statistical tests, identify trends, create analytical models        |
-| 1:00 PM  | 📊**Visualization**              | Create charts, graphs, and dashboards to represent findings             |
-| 2:30 PM  | 👥**Stakeholder Meeting**        | Present findings to business team, gather requirements for new analyses |
-| 3:30 PM  | 📝**Documentation**              | Update analysis documentation, annotate code, record methodologies      |
-| 4:30 PM  | 📚**Learning**                   | Stay up-to-date with new tools, techniques, and industry trends         |
-
-> 💡 **Reality Check**: The day-to-day activities can vary significantly depending on company size, industry focus, and specific role. Some analysts spend more time on reporting, while others focus more on exploratory analysis or dashboard development.
 
 ---
 
@@ -356,13 +340,9 @@ Specialized in analyzing clinical outcomes and healthcare operations
 
 ## 📝 Activity: Role Simulation
 
-### Group Exercise: Data Analysis Scenarios (30 minutes)
+### Scenario Examples:
 
-**Instructions:** Divide into groups of 3-4. Each group will be assigned a scenario where you'll take on the role of a data analyst in a specific situation. Prepare a brief (3-5 minute) presentation on how you would approach the scenario.
-
-#### Scenario Examples:
-
-##### Scenario 1: Retail Store Performance
+#### Scenario 1: Retail Store Performance
 
 The CEO of a retail chain wants to understand why some stores are outperforming others.
 
@@ -373,7 +353,7 @@ The CEO of a retail chain wants to understand why some stores are outperforming 
 3. How would you present your findings?
 4. What potential challenges might you face?
 
-##### Scenario 2: Website Optimization
+#### Scenario 2: Website Optimization
 
 A company's website has a high bounce rate and low conversion. You need to analyze user behavior to recommend improvements.
 
@@ -384,7 +364,7 @@ A company's website has a high bounce rate and low conversion. You need to analy
 3. How would you present your findings?
 4. What potential challenges might you face?
 
-##### Scenario 3: HR Employee Retention
+#### Scenario 3: HR Employee Retention
 
 The HR department is concerned about rising employee turnover and wants to understand factors that lead to employees leaving.
 
@@ -395,7 +375,7 @@ The HR department is concerned about rising employee turnover and wants to under
 3. How would you present your findings?
 4. What potential challenges might you face?
 
-##### Scenario 4: Healthcare Patient Outcomes
+#### Scenario 4: Healthcare Patient Outcomes
 
 A hospital wants to improve patient outcomes by understanding factors that lead to readmissions within 30 days.
 
@@ -406,55 +386,9 @@ A hospital wants to improve patient outcomes by understanding factors that lead 
 3. How would you present your findings?
 4. What potential challenges might you face?
 
-### Group Discussion (15 minutes)
-
-After presentations, we'll discuss:
-
-- Common approaches across different scenarios
-- How the role of a data analyst adapts to different industries
-- Key challenges and how to overcome them
-
 ---
 
-## 📚 Additional Resources
 
-### Recommended Reading:
-
-- 📕 "Thinking with Data" by Max Shron
-- 📗 "Storytelling with Data" by Cole Nussbaumer Knaflic
-- 📘 "The Art of Data Science" by Roger D. Peng and Elizabeth Matsui
-
-### Online Resources:
-
-- [Data Analysis Career Path Guide](https://www.coursera.org/articles/data-analyst-career-guide) 🎓
-- [Data Analyst Portfolio Examples](https://www.dataquest.io/blog/data-analyst-portfolio-examples/) 📊
-- [Kaggle: Learn Data Analysis](https://www.kaggle.com/learn/data-visualization) 📈
-
-### Communities to Join:
-
-- [Reddit r/dataanalysis](https://www.reddit.com/r/dataanalysis/)
-- [Data Visualization Society](https://www.datavisualizationsociety.com/)
-- [LinkedIn Data Analyst Groups](https://www.linkedin.com/groups/)
-- [Local Data Meetups](https://www.meetup.com/topics/data-analytics/)
-
----
-
-## 📋 Homework
-
-**Assignment:** Due before next class session
-
-1. **Role Comparison**:
-
-   - Find and analyze 5-7 job descriptions for data analysts in different industries
-   - Identify common skills, tools, and responsibilities
-   - Note any industry-specific requirements
-2. **Self-Assessment**:
-
-   - Rate your current skill level on the key technical and soft skills discussed
-   - Identify 3 strengths you already possess and 3 areas for growth
-   - Create a brief (1-page) personal development plan
-
----
 
 *Next Lesson: Overview of Industry Tools and Technologies* ⏭️
 

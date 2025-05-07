@@ -620,12 +620,6 @@ graph TD
 
 ## 📝 Activity: Visualization Selection Challenge
 
-### Group Exercise (25 minutes)
-
-#### Setup:
-- Form groups of 3-4 students
-- Each group will be assigned one of the following data scenarios
-
 #### Data Scenarios:
 
 1. **Retail Sales Analysis**
@@ -650,23 +644,6 @@ graph TD
    - Tenure and promotion history
    - Training completion and skill assessments
    - Employee satisfaction scores
-
-#### Task Instructions:
-
-1. For your assigned scenario:
-   - Identify 3 key questions the data could help answer
-   - Select the most appropriate visualization type for each question
-   - Sketch a rough example of each visualization
-   - Explain why you chose these visualization types
-
-2. Consider:
-   - Who is the target audience for each visualization?
-   - What story does each visualization tell?
-   - How might these visualizations be combined in a dashboard?
-
-#### Presentation (15 minutes):
-- Each group will share their selections and reasoning
-- Class discussion on alternative approaches
 
 ---
 

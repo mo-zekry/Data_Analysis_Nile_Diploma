@@ -271,56 +271,29 @@ For today's Q&A session:
 - Choice of scenarios.
 - Presentation and written reflection.
 
-**Evaluation Criteria**: Concept understanding, method application, analysis quality, communication, critical reflection.
+**Project Requirements:**
+1. **Dataset Selection**: Choose from provided datasets or find your own (with instructor approval)
+2. **Analysis Plan**: Submit a brief outline (500 words) of your approach before starting
+3. **Full Analysis Execution**: Apply the complete data analysis lifecycle
+4. **Deliverables**:
+   - Written report (1000-1500 words) following the provided template
+   - 5-minute presentation with visual aids (5-8 slides)
+   - Source files with documented code/formulas (if applicable)
 
----
+**Scenario Options:**
+- **Business**: Analyze sales data to identify trends and recommend inventory adjustments
+- **Healthcare**: Explore patient data to identify patterns in treatment outcomes
+- **Education**: Examine student performance metrics to suggest curriculum improvements
+- **Custom**: Propose your own scenario (requires instructor approval)
 
-## 📚 Additional Resources
+**Evaluation Criteria**:
+- **Concept Understanding** (25%): Correct application of data analysis concepts
+- **Method Application** (25%): Appropriate use of tools and techniques
+- **Analysis Quality** (20%): Depth and accuracy of insights generated
+- **Communication** (20%): Clarity of presentation and narrative
+- **Critical Reflection** (10%): Self-assessment of strengths and limitations
 
-### 📘 Books
-- "Naked Statistics" - C. Wheelan
-- "How to Lie with Statistics" - D. Huff
-- "Data Science for Business" - Provost & Fawcett
-- "The Art of Data Science" - Peng & Matsui
-
-### 🔗 Online Learning
-- Google Data Analytics Cert.
-- Khan Academy Statistics
-- DataCamp
-- Towards Data Science
-
-### 👥 Communities
-- Reddit r/datascience
-- Data Science Stack Exchange
-- LinkedIn Groups
-- Local Meetups
-
-### 💾 Practice Datasets
-- Kaggle Datasets
-- Data.gov
-- UCI ML Repository
-- Google Dataset Search
-
----
-
-## 🚀 Preparing for Module 2
-
-Next module: **Data Cleaning and Preparation Techniques**.
-
-**👀 Topics to Preview**:
-
-- Data quality assessment
-- Handling missing/inconsistent data
-- Data transformation & feature engineering
-- Automation of preparation
-- Documentation best practices
-
-**🛠️ Suggested Preparation**:
-
-1. Review basic spreadsheet functions.
-2. Explore a practice dataset.
-3. Install/access a tool from Lesson 5.
-4. Reflect on personal learning objectives.
+> 💡 **Tip**: This project is designed to demonstrate your understanding of foundational concepts rather than advanced technical skills. Focus on applying the data analysis lifecycle properly and communicating your findings effectively.
 
 ---
 

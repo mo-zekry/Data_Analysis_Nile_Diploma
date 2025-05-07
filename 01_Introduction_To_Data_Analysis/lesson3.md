@@ -23,8 +23,6 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 
 > "Good data analysis tells a story that answers the original question clearly and compellingly."
 
-![Data Analysis Lifecycle](image/lesson3/data_lifecycle.png)
-
 ---
 
 ## 2. 🛠️ Stages of Data Analysis

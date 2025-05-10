@@ -505,7 +505,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 
 ---
 
-## 3. 📢 Communication of Insights
+## 5. 📢 Communication of Insights
 
 **🎯 Purpose**: Share insights with stakeholders in a clear and actionable manner.
 

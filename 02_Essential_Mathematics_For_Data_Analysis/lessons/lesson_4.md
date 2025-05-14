@@ -180,22 +180,7 @@ quadrantChart
 
 *Figure 12: Risk assessment matrix showing probability vs. impact*
 
-#### Quality Control 🏭
-Manufacturers use probability to determine acceptable defect rates:
 
-```mermaid
-xychart-beta
-    title "Quality Control Chart: Defect Rate Over Time"
-    x-axis ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
-    y-axis "Defect %" 0 --> 5
-    line [2.1, 1.8, 2.4, 3.6, 2.9, 2.2]
-    line [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-    line [3.0, 3.0, 3.0, 3.0, 3.0, 3.0]
-```
-
-*Figure 13: Control chart showing probability of defects over time. The horizontal lines represent the upper control limit (3.0%) and lower control limit (1.0%).*
-
----
 
 ## 4. Activities 🏋️‍♀️
 

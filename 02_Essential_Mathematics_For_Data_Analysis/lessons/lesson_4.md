@@ -180,20 +180,6 @@ quadrantChart
 
 *Figure 12: Risk assessment matrix showing probability vs. impact*
 
-#### Quality Control 🏭
-Manufacturers use probability to determine acceptable defect rates:
-
-```mermaid
-xychart-beta
-    title "Quality Control Chart: Defect Rate Over Time"
-    x-axis ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
-    y-axis "Defect %" 0 --> 5
-    line [2.1, 1.8, 2.4, 3.6, 2.9, 2.2]
-    line [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
-    line [3.0, 3.0, 3.0, 3.0, 3.0, 3.0]
-```
-
-*Figure 13: Control chart showing probability of defects over time. The horizontal lines represent the upper control limit (3.0%) and lower control limit (1.0%).*
 
 ---
 
@@ -246,13 +232,7 @@ Test your understanding with the following questions:
 
 ## 5. Practice Problems 📝
 
-1. A jar contains 6 red balls and 4 blue balls. If two balls are drawn randomly without replacement, what is the probability that both balls are red? 🔴🔴
-
-2. A study found that 65% of people prefer tea over coffee. If 4 people are selected at random, what is the probability that exactly 3 of them prefer tea? ☕🍵
-
-3. The heights of adult women in a certain population follow a normal distribution with mean 165 cm and standard deviation 6 cm. 📏👩‍🦰
-   - What percentage of women have heights between 159 cm and 171 cm?
-   - What is the probability that a randomly selected woman is taller than 177 cm?
+- A jar contains 6 red balls and 4 blue balls. If two balls are drawn randomly without replacement, what is the probability that both balls are red? 🔴🔴
 
 ---
 

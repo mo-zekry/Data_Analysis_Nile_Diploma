@@ -181,7 +181,6 @@ quadrantChart
 *Figure 12: Risk assessment matrix showing probability vs. impact*
 
 
----
 
 ## 4. Activities 🏋️‍♀️
 
